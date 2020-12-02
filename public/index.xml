@@ -6,7 +6,16 @@
     <description>Recent content on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nuevo post</title>
+      <link>/2020/12/02/nuevo-post/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/12/02/nuevo-post/</guid>
+      <description>####Eggs PER PLANT ####Sub.Eggs &amp;lt;- subset(mydata,select=c(Nger, Isolate, EggsP) ) ##Create a subset of the desire variableEggs per plant: MIAd####Isolate: MIAd####Sub.Eggs.MIAd &amp;lt;- subset(Sub.Eggs, Isolate == &amp;quot;MIAd&amp;quot;, select=c(Nger, EggsP)) Sub.Eggs.MIAd$Nger = factor (Sub.Eggs.MIAd$Nger, labels=c(&amp;quot;EC&amp;quot;, &amp;quot;TB&amp;quot;, &amp;quot;TE&amp;quot;, &amp;quot;TS&amp;quot;, &amp;quot;TT&amp;quot;)) ###Descriptive statistics calculation###Sub.Eggs.MIAd.EC &amp;lt;- subset(Sub.Eggs.MIAd, Nger == &amp;quot;EC&amp;quot;, select=c(Nger,EggsP))Me.EP.MIAd.EC &amp;lt;- mean(Sub.Eggs.MIAd.EC$EggsP, na.mr=FALSE)Me.EP.MIAd.EC &amp;lt;- round(Me.EP.MIAd.EC, digits=2)Se.EP.MIAd.EC &amp;lt;- se(Sub.Eggs.MIAd.EC$EggsP)Se.EP.MIAd.EC &amp;lt;- round(Se.EP.MIAd.EC, digits=2)Sub.Eggs.MIAd.SB &amp;lt;- subset(Sub.</description>
+    </item>
+    
     <item>
       <title>A Plain Markdown Post</title>
       <link>/2016/12/30/a-plain-markdown-post/</link>
